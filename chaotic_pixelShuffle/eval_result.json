@@ -1,0 +1,21 @@
+{
+  "mode": "chaotic_pixelShuffle",
+  "checkpoint": "/home/uns/project/RSNA/chaotic_pixelShuffle/best_model_chaotic_pixelShuffle.pth",
+  "image_size": 224,
+  "batch_size": 32,
+  "key": "my_secret_key",
+  "block": 8,
+  "val_seed": 42,
+  "metrics": {
+    "accuracy": 0.7678471051152332,
+    "precision": 0.4,
+    "recall": 0.0048543689320388345,
+    "f1": 0.009592326139088728,
+    "roc_auc": 0.5632794195748294,
+    "ap": 0.28840882188401273,
+    "tn": 4092,
+    "fp": 9,
+    "fn": 1230,
+    "tp": 6
+  }
+}

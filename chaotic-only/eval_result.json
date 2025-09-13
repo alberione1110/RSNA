@@ -1,0 +1,21 @@
+{
+  "mode": "chaotic-only",
+  "checkpoint": "/home/uns/project/RSNA/chaotic-only/best_model_chaoticOnly.pth",
+  "image_size": 224,
+  "batch_size": 32,
+  "key": "my_secret_key",
+  "block": 8,
+  "val_seed": 42,
+  "metrics": {
+    "accuracy": 0.8300543376428705,
+    "precision": 0.711168164313222,
+    "recall": 0.4482200647249191,
+    "f1": 0.5498759305210918,
+    "roc_auc": 0.8614070370396675,
+    "ap": 0.6581770443007595,
+    "tn": 3876,
+    "fp": 225,
+    "fn": 682,
+    "tp": 554
+  }
+}

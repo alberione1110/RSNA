@@ -1,0 +1,7 @@
+folder,mode,ckpt,acc,precision,recall,f1,roc_auc,ap,tn,fp,fn,tp
+basic,basic,/home/uns/project/RSNA/basic/best_model_basic.pth,0.8652801199175567,0.8284625158831004,0.5275080906148867,0.6445872466633712,0.9179395427273638,0.7939849662730086,3966,135,584,652
+pixelShuffle-only,pixelShuffle-only,/home/uns/project/RSNA/pixelShuffle-only/best_model_pixelShuffle.pth,0.7684092186621697,0.0,0.0,0.0,0.582863008390881,0.29794107082127064,4101,0,1236,0
+partShuffle-only,partShuffle-only,/home/uns/project/RSNA/partShuffle-only/best_model_partShuffle.pth,0.7633501967397415,0.36633663366336633,0.029935275080906147,0.055347793567688854,0.6832018238506828,0.36571413518006457,4037,64,1199,37
+chaotic-only,chaotic-only,/home/uns/project/RSNA/chaotic-only/best_model_chaoticOnly.pth,0.8300543376428705,0.711168164313222,0.4482200647249191,0.5498759305210918,0.8614070370396675,0.6581770443007595,3876,225,682,554
+chaotic_pixelShuffle,chaotic_pixelShuffle,/home/uns/project/RSNA/chaotic_pixelShuffle/best_model_chaotic_pixelShuffle.pth,0.7678471051152332,0.4,0.0048543689320388345,0.009592326139088728,0.5632794195748294,0.28840882188401273,4092,9,1230,6
+chaotic_partShuffle,chaotic_partShuffle,/home/uns/project/RSNA/chaotic_partShuffle/best_model_chaotic_partShuffle.pth,0.7684092186621697,0.0,0.0,0.0,0.5654463865076717,0.28261956553969086,4101,0,1236,0

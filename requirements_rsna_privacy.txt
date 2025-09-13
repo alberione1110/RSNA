@@ -1,0 +1,17 @@
+# Core ML stack
+torch
+torchvision
+
+# Data handling & utils
+numpy
+pandas
+tqdm
+pillow
+
+# DICOM support
+pydicom
+pylibjpeg
+pylibjpeg-libjpeg
+
+# Model evaluation
+scikit-learn

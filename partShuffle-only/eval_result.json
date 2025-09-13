@@ -1,0 +1,21 @@
+{
+  "mode": "partShuffle-only",
+  "checkpoint": "/home/uns/project/RSNA/partShuffle-only/best_model_partShuffle.pth",
+  "image_size": 224,
+  "batch_size": 32,
+  "key": "",
+  "block": 8,
+  "val_seed": 42,
+  "metrics": {
+    "accuracy": 0.7633501967397415,
+    "precision": 0.36633663366336633,
+    "recall": 0.029935275080906147,
+    "f1": 0.055347793567688854,
+    "roc_auc": 0.6832018238506828,
+    "ap": 0.36571413518006457,
+    "tn": 4037,
+    "fp": 64,
+    "fn": 1199,
+    "tp": 37
+  }
+}

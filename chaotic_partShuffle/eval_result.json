@@ -1,0 +1,21 @@
+{
+  "mode": "chaotic_partShuffle",
+  "checkpoint": "/home/uns/project/RSNA/chaotic_partShuffle/best_model_chaotic_partShuffle.pth",
+  "image_size": 224,
+  "batch_size": 32,
+  "key": "my_secret_key",
+  "block": 8,
+  "val_seed": 42,
+  "metrics": {
+    "accuracy": 0.7684092186621697,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5654463865076717,
+    "ap": 0.28261956553969086,
+    "tn": 4101,
+    "fp": 0,
+    "fn": 1236,
+    "tp": 0
+  }
+}

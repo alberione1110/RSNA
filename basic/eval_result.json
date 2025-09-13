@@ -1,0 +1,21 @@
+{
+  "mode": "basic",
+  "checkpoint": "/home/uns/project/RSNA/basic/best_model_basic.pth",
+  "image_size": 224,
+  "batch_size": 32,
+  "key": "",
+  "block": 8,
+  "val_seed": 42,
+  "metrics": {
+    "accuracy": 0.8652801199175567,
+    "precision": 0.8284625158831004,
+    "recall": 0.5275080906148867,
+    "f1": 0.6445872466633712,
+    "roc_auc": 0.9179395427273638,
+    "ap": 0.7939849662730086,
+    "tn": 3966,
+    "fp": 135,
+    "fn": 584,
+    "tp": 652
+  }
+}
