@@ -40,7 +40,7 @@ def shuffle_blocks(arr: np.ndarray, rng: np.random.Generator, block: int = 4) ->
     assert H % block == 0 and W % block == 0, "H,W must be multiples of block"
     h2, w2 = H // block, W // block
     # (h2, w2, block, block, C)
-    tiles = arr.reshape(h2, block, w2, block, C).transpose(0, 2, 1, 3, 4)  # (h2, w2, b, b, C)
+    tiles = arr.reshape(h2, block, w2, block, C).transpose(0, 2, 1, 3, 4)
     idx = rng.permutation(h2 * w2)
     tiles = tiles.reshape(-1, block, block, C)[idx].reshape(h2, w2, block, block, C)
     # 복원
