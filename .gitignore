@@ -1,1 +1,5 @@
 /rsna-pneumonia-detection-challenge
+*.pth
+*.npz
+__pycache__/
+.vscode/
