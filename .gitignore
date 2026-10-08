@@ -3,3 +3,6 @@
 *.npz
 __pycache__/
 .vscode/
+_reports/samples/
+_reports/sample_grids/
+**/gradcam/
